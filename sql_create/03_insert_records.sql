@@ -42,6 +42,14 @@ INSERT INTO players (player_id, first_name, last_name, birthdate, height, [weigh
     (202691, 'Kyrie', 'Irving', 19900323, '6-3', 193, 'USA', 'BOS'),
     (203507, 'Kawhi', 'Leonard', 19910629, '6-7', 230, 'USA', 'TOR'),
     (203954, 'Klay', 'Thompson', 19900208, '6-6', 215, 'USA', 'GSW'),
-    (203076, 'Anthony', 'Davis', 19900311, '6-10', 253, 'USA', 'NOP');
-    
+    (203076, 'Anthony', 'Davis', 19900311, '6-10', 253, 'USA', 'NOP'),
+    (1627759, 'Jaylen', 'Brown', 19960124, '6-6', 223, 'USA', 'BOS'),
+    (1628369, 'Jayson', 'Tatum', 19980303, '6-8', 208, 'USA', 'BOS'),
+    (1629029, 'Donovan', 'Mitchell', 19960907, '6-3', 215, 'USA', 'UTA'),
+    (1628378, 'Ben', 'Simmons', 19960720, '6-10', 230, 'Australia', 'PHI'),
+    (1627732, 'Dennis', 'Smith Jr.', 19971125, '6-3', 195, 'USA', 'DAL'),
+    (1628370, "De'Aaron", 'Fox', 19971220, '6-3', 175, 'USA', 'SAC'),
+    (1628366, 'Lonzo', 'Ball', 19971027, '6-6', 190, 'USA', 'LAL'),
+    (1628371, 'Josh', 'Jackson', 19970210, '6-8', 207, 'USA', 'PHX'),
+    (1628374, 'Markelle', 'Fultz', 19980529, '6-4', 200, 'USA', 'PHI');
     
