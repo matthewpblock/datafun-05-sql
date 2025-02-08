@@ -42,13 +42,6 @@ INSERT INTO players (player_id, first_name, last_name, birthdate, height, [weigh
     (202691, 'Kyrie', 'Irving', 19900323, '6-3', 193, 'USA', 'BOS'),
     (203507, 'Kawhi', 'Leonard', 19910629, '6-7', 230, 'USA', 'TOR'),
     (203954, 'Klay', 'Thompson', 19900208, '6-6', 215, 'USA', 'GSW'),
-    (203076, 'Anthony', 'Davis', 19900311, '6-10', 253, 'USA', 'NOP'),
-    (203507, 'Kawhi', 'Leonard', 19910629, '6-7', 230, 'USA', 'TOR'),
-    (203954, 'Klay', 'Thompson', 19900208, '6-6', 215, 'USA', 'GSW'),
-    (203076, 'Anthony', 'Davis', 19900311, '6-10', 253, 'USA', 'NOP'),
-    (203954, 'Klay', 'Thompson', 19900208, '6-6', 215, 'USA', 'GSW'),
-    (203076, 'Anthony', 'Davis', 19900311, '6-10', 253, 'USA', 'NOP'),
-    (203507, 'Kawhi', 'Leonard', 19910629, '6-7', 230, 'USA', 'TOR'),
-    (203954, 'Klay', 'Thompson', 19900208, '6-6', 215, 'USA', 'GSW'),
     (203076, 'Anthony', 'Davis', 19900311, '6-10', 253, 'USA', 'NOP');
+    
     
