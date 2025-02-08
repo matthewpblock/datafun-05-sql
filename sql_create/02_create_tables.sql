@@ -20,7 +20,7 @@ CREATE TABLE teams (
 
 -- Create the players table with a foreign key to the teams table
 CREATE TABLE players (
-    player_id TEXT PRIMARY KEY,
+    player_id INTEGER PRIMARY KEY,
     first_name TEXT,
     last_name TEXT,
     birthdate INTEGER,
