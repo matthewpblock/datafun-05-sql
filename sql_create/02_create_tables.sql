@@ -13,20 +13,20 @@ CREATE TABLE teams (
     team TEXT PRIMARY KEY,
     nickname TEXT,
     city TEXT,
-    'state' TEXT,
+    [state] TEXT,
     conference TEXT,
-    division TEXT,
+    division TEXT
 );
 
--- Create the playes table with a foreign key to the teams table
+-- Create the players table with a foreign key to the teams table
 CREATE TABLE players (
     player_id TEXT PRIMARY KEY,
-    first_name TEXT,
-    last_name TEXT,
-    birthdate INTEGER,
-    height TEXT,
-    'weight' INTEGER,
-    country TEXT,
-    FOREIGN KEY (team) REFERENCES teams(team)
-
+    first_name TEXT,
+    last_name TEXT,
+    birthdate INTEGER,
+    height TEXT,
+    [weight] INTEGER,
+    country TEXT,
+    team TEXT,
+    FOREIGN KEY (team) REFERENCES teams (team)
 );

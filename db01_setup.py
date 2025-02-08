@@ -21,7 +21,6 @@ def execute_sql_file(connection, file_path) -> None:
         file_path (str): Path to the SQL file to be executed.
     """
     # We know reading from a file can raise exceptions, so we wrap it in a try block
-    # For example, the file might not exist, or the file might not be readable
     try:
         with open(file_path, 'r') as file:
             # Read the SQL file into a string
