@@ -4,7 +4,7 @@ import pandas as pd
 import pathlib
 
 # Define the database file in the current root project directory
-db_file = pathlib.Path("book_project.sqlite3")
+db_file = pathlib.Path("data\\book_project.sqlite3")
 
 ############################################
 # Define functions
